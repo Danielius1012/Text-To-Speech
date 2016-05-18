@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Speech</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="js/apicalls.js"></script>
+        <link rel="stylesheet" href="https://assets.onestore.ms/cdnfiles/external/webcore/4.9.0/stylesheets/WebCore.4.9.0.ltr.light.min.css">
+        <link rel="stylesheet" href="css/basic.css">
+    </head>
+    <body>
+        <header class="template-pageHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-24 spacer-20-bottom spacer-32-top">
+                        <img class="logo" alt="Microsoft Logo" src="images/microsoftLogo.png">
+                        <h1 class="header-title spacer-12-top spacer-12-bottom">Cognitive Services Demo</h1>
+                        <h2 class="header-subtitle">Text To Speech</h2>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="dialog-element">
+                    <label class="label" for="my-text">Text to be spoken</label>
+                    <br>
+                    <input type="text" id="my-text" />    
+                    <select id="languageSelect">
+                        <option value="Deutsch" selected>Deutsch</option>
+                        <option value="English">English</option>
+                    </select>  
+                </div>
+                <div class="dialog-element">
+                    <button id="play" class="btn-primary" onclick="requestAudio();" >Play</button> 
+                </div>
+                
+            </div> 
+        </div>      
+        
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-24">
+                        <p class="text-caption">For more details look at 
+                            <a target="_blank" href="http://devblog.azurewebsites.net/speech-recognition-sprache-erkennen-mit-project-oxford/">my blog post</a>
+                        </p>      
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
