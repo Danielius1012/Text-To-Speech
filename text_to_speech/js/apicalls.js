@@ -5,7 +5,7 @@ var audioURL = "https://speech.platform.bing.com/synthesize";
 // Unsere ID. Kann ein beliebiger Wert sein (ein Wort in lowercase)
 var clientId = "daniel";
 // Der Secondary Key aus dem Oxford Portal: https://www.projectoxford.ai/Subscription
-var clientSecret = "YOUR CODE HERE";
+var clientSecret = "805c311f640f494c84f31b5acd863d20";
 // Der Token. Dieser wird nach dem ersten Call gefüllt und zum anfordern der Sprache verwendet.
 var token = "default";
 // Der zu sprechende Text. Hier nur ein Dummy Wert. 

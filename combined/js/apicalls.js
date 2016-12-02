@@ -4,7 +4,7 @@ var recogniseURL = "https://speech.platform.bing.com/recognize/query";
 
 var scope = "https://speech.platform.bing.com"; 
 var clientId = "daniel";
-var clientSecret = "YOUR TEXT HERE";
+var clientSecret = "805c311f640f494c84f31b5acd863d20";
 var token = "default";
 var textToSpeak = 'Hallo';
 var language = 'de-DE';

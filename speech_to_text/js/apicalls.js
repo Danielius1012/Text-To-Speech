@@ -2,7 +2,7 @@ var tokenURL = 'https://oxford-speech.cloudapp.net/token/issueToken';
 var recogniseURL = "https://speech.platform.bing.com/recognize/query";
 
 var clientId = "daniel";
-var clientSecret = "YOUR CODE HERE";
+var clientSecret = "805c311f640f494c84f31b5acd863d20";
 
 var language = 'de-DE';
 
